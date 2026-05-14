@@ -1,0 +1,6 @@
+# Rust build artifacts
+target/
+*.d
+
+# Compiled binaries
+projects/hello_world/main
