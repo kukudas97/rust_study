@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "my-project",
+    "my-project/generic",
+    "my-project/adder",
+    "projects/branches",
+    "projects/enums",
+    "projects/functions",
+    "projects/guessing_game",
+    "projects/hello_world/hello_cargo",
+    "projects/rectangles",
+    "projects/structs",
+    "projects/variables", "minigrep",
+]
+resolver = "2"

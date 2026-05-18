@@ -1,0 +1,40 @@
+services:
+  # 각 프로젝트를 개별 서비스로 실행
+  branches:
+    build: .
+    command: /usr/local/bin/branches
+
+  enums:
+    build: .
+    command: /usr/local/bin/enums
+
+  functions:
+    build: .
+    command: /usr/local/bin/function
+
+  hello_cargo:
+    build: .
+    command: /usr/local/bin/hello_cargo
+
+  rectangles:
+    build: .
+    command: /usr/local/bin/rectangles
+
+  structs:
+    build: .
+    command: /usr/local/bin/structs
+
+  variables:
+    build: .
+    command: /usr/local/bin/variables
+
+  my-project:
+    build: .
+    command: /usr/local/bin/my-project
+
+  # 숫자 맞히기 게임 - 대화형 입력이 필요함
+  guessing_game:
+    build: .
+    command: /usr/local/bin/guessing_game
+    stdin_open: true
+    tty: true
