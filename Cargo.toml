@@ -10,6 +10,6 @@ members = [
     "projects/hello_world/hello_cargo",
     "projects/rectangles",
     "projects/structs",
-    "projects/variables", "minigrep",
+    "projects/variables", "minigrep", "iterators_closures/closures", "iterators_closures/closures2", "iterators_closures/iterators",
 ]
 resolver = "2"
